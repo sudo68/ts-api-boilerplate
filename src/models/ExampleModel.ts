@@ -1,9 +1,9 @@
 import { DataTypes, Model } from "sequelize";
 import sequelize from "../config/database";
 
-class User extends Model {}
+class ExampleModel extends Model {}
 
-User.init(
+ExampleModel.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -30,10 +30,10 @@ User.init(
     },
     {
         sequelize,
-        tableName: "users",
-        modelName: "User",
+        tableName: "examplemodel",
+        modelName: "ExampleModel",
         timestamps: true,
     }
 );
 
-export default User;
+export default ExampleModel;

@@ -1,9 +1,3 @@
-import Song from "./Song";
-import User from "./User";
+import ExampleModel from "./ExampleModel";
 
-const models = {
-    Song,
-    User,
-};
-
-export default models;
+export default { ExampleModel } ;
