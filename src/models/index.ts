@@ -1,3 +1,3 @@
-import ExampleModel from "./ExampleModel";
+import ExampleModel from "./example.model";
 
-export default { ExampleModel } ;
+export default { ExampleModel };
